@@ -1,0 +1,160 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-margin-block: 1em 0.5em;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  overflow-x: hidden;
+}
+body {
+  width: 100%;
+  margin: 2rem auto;
+  background-color: #2f2f2f;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container1 {
+  width: 35%;
+  margin: auto;
+  min-width: 500px;
+  gap: 1rem;
+  color: white;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.switchInfoGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 5rem;
+}
+.textBoxZone {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  column-gap: 9rem;
+  margin: auto;
+  padding: 0 10%;
+}
+
+input {
+  height: 2rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: antiquewhite;
+
+  border-radius: 0.7rem;
+}
+
+#textBoxUserchoiceSubTitle {
+  min-height: 5rem;
+  min-width: 100%;
+  max-width: 100%;
+  background-color: antiquewhite;
+}
+.textZone {
+  max-width: 33rem;
+}
+.output {
+  width: 100%;
+  margin: auto;
+}
+.containerOutput {
+  width: 100%;
+  min-height: 4rem;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  color: #1e3050;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.buttonTextOutput {
+  max-width: 40%;
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  height: 2rem;
+  width: 7rem;
+  border-radius: 1rem;
+}
+.buttonTextOutput button {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+.textDivOutput {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.textZoneOutput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.textZoneOutput input {
+  height: 1rem;
+  margin-bottom: 0.3rem;
+  padding: 0.6rem 0.3rem;
+  border-radius: 6px;
+  text-align: center;
+}
+.searchContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+#switch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+#switchZone {
+  display: flex;
+  width: 9rem;
+  text-align: end;
+  gap: 0.3rem;
+}
+#searchBox {
+  width: 100%;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 3rem;
+  background: antiquewhite;
+  height: 1rem;
+  border-radius: 1rem;
+  margin: 0;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  background-color: darkslategray;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+}
