@@ -139,7 +139,7 @@ function sendFormData() {
     const modifyButton = document.createElement("button");
     modifyButton.id = `modifyButton${contactID}`;
     modifyButton.classList = `modifyButton`;
-    modifyButton.innerHTML = "modifier";
+    modifyButton.innerHTML = "Modifier";
     buttonTextOutput.appendChild(modifyButton);
 
     modifyButton.addEventListener("click", () => {
